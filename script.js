@@ -5,5 +5,5 @@ alert("abhi ke liye isi se chala le, baki suggestions deta rahiyo teri party tak
 window.addEventListener("mouseover",playsong);
 window.addEventListener("click", playsong);
 function playsong {
-document.getElementByID("song")play();
+document.getElementByID("song").play();
 }
