@@ -3,11 +3,11 @@ body {
  color:white;
 }
 #profile {
-	width:  20%;
-	margin: 100 auto;
+	align-content: center;
+	
    
 }
 h1 {
 	margin: auto;
-    font-size:5em; 
+    font-size: 3.5rem; 
 }
