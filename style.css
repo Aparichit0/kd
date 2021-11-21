@@ -3,16 +3,11 @@ body {
  color:white;
 }
 #profile {
-				width:  20%;
-				margin: auto;
-   padding: 2px 2px;
+	width:  20%;
+	margin: 100 auto;
+   
 }
-/* h1 {
-				margin: 0 20vw;
-    font-size:1em; 
+h1 {
+	margin: auto;
+    font-size:5em; 
 }
-h2 {
-				margin: 0 25vw;
-    font-size:.5em;
-}
-*/
