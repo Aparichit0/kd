@@ -2,12 +2,24 @@ body {
  background-color:#7bdeed;
  color:white;
 }
-#profile {
+.center {
+	display: block;
 	align-content: center;
-	
-   
+	align-items: center;
+	margin: auto;
+	width: 50%;
 }
 h1 {
 	margin: auto;
-    font-size: 3.5rem; 
+    font-size: 3em;
+	
 }
+p{ align-content: center;
+	font-size: 2em;
+
+}
+p1{ text-align: right;
+	font-size: 0.8em;
+
+}
+
