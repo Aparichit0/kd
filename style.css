@@ -2,7 +2,7 @@ body {
 	background-image: url("resources/birthdayBG.png");
 	background-repeat: no-repeat;
 	background-position:top;
-	background-size: 90vw;
+	background-size: 100vw;
  	background-color:#7bdeed;
  	color:white;
 }
@@ -27,6 +27,7 @@ p{
 
 }
 
-audio{
-	padding-block: 10vw;
+song{
+	display: none;
+
 }
