@@ -1,27 +1,29 @@
 body {
-	background-image: url("resources/cake.svg");
-	background-size:1fr;
- background-color:#7bdeed;
- color:white;
+	background-image: url("resources/birthdayBG.png");
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: 100vw;
+ 	background-color:#7bdeed;
+ 	color:white;
 }
-#center {
-	align-self: center;
-	display: flex;
-	justify-content: center;
+
+.center {
+	padding: 1px 1px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 50%;
-	padding-right: 50%;
-	width: 50px;
-	
+	width: 210px;
+	display: block;
 }
+
 h1 {
 	margin: auto;
-    font-size: 3em;
-	
+	text-align: center;
+	font-size: 2.5em;
 }
-p{ align-content: center;
-	font-size: 2em;
+p{ 
+	margin: auto;
+	text-align: center;
+	font-size: 1.5em;
 
 }
 
