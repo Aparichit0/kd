@@ -2,7 +2,7 @@ body {
 	background-image: url("resources/birthdayBG.png");
 	background-repeat: no-repeat;
 	background-position:top;
-	background-size: 100vw;
+	background-size: 90vw;
  	background-color:#7bdeed;
  	color:white;
 }
@@ -11,7 +11,7 @@ body {
 	padding: 1px 1px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 210px;
+	width: 40%;
 	display: block;
 }
 
@@ -27,3 +27,6 @@ p{
 
 }
 
+audio{
+	padding-block: 10vw;
+}
