@@ -31,7 +31,6 @@ body {
 	max-width: 315px;
 	max-height: 315px;
 	z-index: -1;
-	border: 1.5vmin ridge rgb(255, 225, 0);
 	/* recentering image with diffrent viewport sizes */
 	position: absolute;
 	top: 40%;
