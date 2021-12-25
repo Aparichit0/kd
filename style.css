@@ -58,3 +58,9 @@ body {
 	word-spacing: 1vmin;
 	font-weight: 800;
 }
+
+#song{
+	postion: absolute;
+	bottom: 0;
+	right: 0;
+}
