@@ -1,33 +1,60 @@
+* { 
+	/* reseting annoying predefined marging-padding of html tag */
+    margin: 0;
+    padding: 0;
+}
+
 body {
-	background-image: url("resources/birthdayBG.png");
+	background-image: linear-gradient(to bottom, rgba(0, 132, 255, 0.596) , rgba(80, 243, 255, 0.877));
 	background-repeat: no-repeat;
-	background-position:top;
-	background-size: 100vw;
- 	background-color:#7bdeed;
+	background-size: 100vw 100vh;
+	background-color: rgb(142, 255, 255);
  	color:white;
 }
 
-.center {
-	padding: 1px 1px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
-	display: block;
-}
-
-h1 {
+.container {
 	margin: auto;
-	text-align: center;
-	font-size: 2.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(resources/birthdayBG.png) top center no-repeat;
+	background-size: contain; 
+	width: 100vmin;
+	height: 100vmin;
+	position: relative;
 }
-p{ 
-	margin: auto;
-	text-align: center;
-	font-size: 1.5em;
 
+.container #profile{
+	height: 65vmin;
+	width: 65vmin;
+	max-width: 315px;
+	max-height: 315px;
+	z-index: -1;
+	border: 1.5vmin ridge rgb(255, 225, 0);
+	/* recentering image with diffrent viewport sizes */
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
 }
 
-song{
-	display: none;
-
+.container p{
+	/* background: rgba(255, 255, 255, 0.301);
+	border-radius: 10vw 10vw 0 0; */
+	text-align: center;
+	min-width: 30ch;
+	font-size: 4vmin;
+	/* auto enter and remove unwanted padding */
+	white-space: pre-line;
+	/* push text to bottom */
+	margin-top: auto;
+	/* slightly uplifted for better readability */
+	margin-bottom: 1vmin;
+	align-items: flex-end;
+	/* font styling */
+	font-family: cursive;
+	text-shadow: 2px 2px 4px darkblue;
+	letter-spacing: 0.1vmin;
+	word-spacing: 1vmin;
+	font-weight: 800;
 }
