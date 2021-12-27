@@ -5,11 +5,12 @@
 }
 
 body {
-	background-image: linear-gradient(to top, rgba(0, 132, 255, 0.5) , rgba(80, 243, 255, 0.9));
+	background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1) , rgba(0, 0, 0, 0.1)), url(https://source.unsplash.com/random/?decoration,birthday);
 	background-repeat: no-repeat;
-	background-size: 100vw 100vh;
-	background-color: rgb(142, 255, 255);
+	background-color: snow;
  	color:white;
+/*full screen gradient fix*/
+	background-attachment: fixed;
 }
 
 .container {
@@ -58,8 +59,14 @@ body {
 	font-weight: 800;
 }
 
-#song {
-	postion: absolute;
-	bottom: 0;
-	right: 0;
+#playerIcon {
+	outline: 2px solid red;
+	width: 15vmin;
+	height: 15vmin;
+	z-index: 5;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 4vmax;
+	right: 4vmax;
 }
+

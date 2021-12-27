@@ -1,27 +1,30 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="script.js"></script>
-  <title>Happy Birthday!</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<title>Happy Birthday!</title>
 </head>
-
+	
 <body>
-  <div class="container">
-    <img id="profile" src="resources/KD.jpg"/>
-    <p> 🎂It’s your birthday,🍰
-        🍾so let’s party!🍻
-        🌠I wish you a fantastic day🌇
-        🛣and a fantastic year ahead!🏢
-    </p>
-  </div>
-  <audio controls id="song" autoplay loop src="resources/BhaiKaHappyBirthday.mp3">
-    tell me incase no audio playback
-  </audio>
+	<div class="container">
+	<img id="profile" src="resources/KD.jpg"/>
+	<p> 🎂It’s your birthday,🍰
+	🍾so let’s party!🍻
+	🌠I wish you a fantastic day🌇
+	🛣and a fantastic year ahead!🏢
+	</p>
+	</div>
+	<ion-icon name="play" id="playerIcon" onclick="musicPlayback()">
+	<audio id="song" loop src="resources/BhaiKaHappyBirthday.mp3">
+	.mp3 filetype is not supported by your browser
+	</audio>
+	</ion-icon>
 </body>
 </html>
+	

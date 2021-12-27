@@ -1,9 +1,13 @@
-alert("⚠ music player & other stuff are still under construction");
+alert("⚠️ music player & other stuff are still under construction");
 
-
-// window.addEventListener("mouseover",playsong);
-// window.addEventListener("click", playsong);
-
-// function playsong {
-// document.getElementByID("song").play();
-// }
+function musicPlayback() {
+var song = document.getElementById("song");
+var icon = document.getElementById("playerIcon");
+if (song.paused == true) {
+song.play();
+icon.setAttribute("name", "pause")
+} else {
+song.pause();
+icon.setAttribute("name", "play")
+}
+}
