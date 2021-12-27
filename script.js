@@ -1,4 +1,4 @@
-alert("⚠️ music player & other stuff are still under construction");
+alert("random wallpaper change & custom music player button added");
 
 function musicPlayback() {
 var song = document.getElementById("song");
