@@ -9,8 +9,9 @@ body {
 	background-repeat: no-repeat;
 	background-color: snow;
  	color:white;
-/*full screen gradient fix*/
+	/*fullscreen background fix*/
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 .container {
@@ -52,17 +53,20 @@ body {
 	margin-bottom: 1vmin;
 	align-items: flex-end;
 	/* font styling */
-	font-family: cursive;
+	font-family: 'Imperial Script', cursive;
 	text-shadow: 2px 2px 4px darkblue;
-	letter-spacing: 0.1vmin;
+	letter-spacing: 0.15vmin;
 	word-spacing: 1vmin;
 	font-weight: 800;
 }
 
 #playerIcon {
 	outline: 2px solid red;
-	width: 15vmin;
-	height: 15vmin;
+	padding: 1.5%
+	width: 14vmin;
+	height: 14vmin;
+	min-width: 7.5mm;
+	min-height: 7.5mm;
 	z-index: 5;
 	border-radius: 50%;
 	position: fixed;
