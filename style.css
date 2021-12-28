@@ -5,67 +5,61 @@
 }
 
 body {
-	background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1) , rgba(0, 0, 0, 0.1)), url(https://source.unsplash.com/random/?celebration,decoration,birthday);
+	background-image: linear-gradient(to top, rgba(255, 255, 255, 0) , rgba(0, 0, 0, 0.1)), url(https://source.unsplash.com/random/?birthday);
 	background-repeat: no-repeat;
-	background-color: snow;
+	background-color: rgb(43,131,226);
  	color:white;
 	/*fullscreen background fix*/
 	background-attachment: fixed;
-	background-size: cover;
+	background-size:  cover;
 }
 
 .container {
 	margin: auto;
 	display: flex;
-	flex-direction: column;
+/* 	flex-direction: column; */
 	justify-content: center;
 	align-items: center;
-	background: url(resources/birthdayBG.png) top center no-repeat;
-	background-size: contain; 
-	width: 100vmin;
-	height: 100vmin;
-	position: relative;
+	width: 100vw;
+	/*! height: 100vmin; */
+	/* position: relative; */
+	flex-flow: wrap;
 }
 
 .container #profile{
 	height: 65vmin;
 	width: 65vmin;
-	max-width: 315px;
-	max-height: 315px;
-	z-index: -1;
+	max-width: 273px;
+	max-height: 273px;
 	/* recentering image with diffrent viewport sizes */
-	position: absolute;
-	top: 40%;
-	transform: translateY(-50%);
+	/* position: absolute; */ 
+	margin: 5vh;
+	/*! transform: translateY(-50%); */
+	border-radius: 10%;
 }
 
 .container p{
 	text-align: center;
-	min-width: 30ch;
-	font-size: 4vmin;
-	/* auto enter and remove unwanted padding */
-	white-space: pre-line;
-	/* push text to bottom */
-	margin-top: auto;
-	/* slightly uplifted for better readability */
-	margin-bottom: 1vmin;
-	align-items: flex-end;
+/* margin-top: 5vmin; */
 	/* font styling */
 	font-family: 'Imperial Script', cursive;
 	text-shadow: 2px 2px 4px black;
 	letter-spacing: 0.15vmin;
 	word-spacing: 1vmin;
 	font-weight: 800;
+	font-size: 8vmin;
+	/* auto enter and remove unwanted padding */
+	white-space: pre-line;
 }
 
 #playerIcon {
 	outline: 2px solid red;
-	width: 14vmin;
-	height: 14vmin;
-	z-index: 5;
+	width: 12vmin;
+	height: 12vmin; 
+	z-index: 2;
 	border-radius: 50%;
 	position: fixed;
-	bottom: 4vmax;
-	right: 4vmax;
+	bottom: 4vmin;
+	right: 4vmin;
 }
 
