@@ -5,12 +5,13 @@
 }
 
 body {
-	background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1) , rgba(0, 0, 0, 0.1)), url(https://source.unsplash.com/random/?decoration,birthday);
+	background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1) , rgba(0, 0, 0, 0.1)), url(https://source.unsplash.com/random/?celebration,decoration,birthday);
 	background-repeat: no-repeat;
 	background-color: snow;
  	color:white;
 	/*fullscreen background fix*/
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 .container {
@@ -59,7 +60,6 @@ body {
 
 #playerIcon {
 	outline: 2px solid red;
-	padding: 1.5%
 	width: 14vmin;
 	height: 14vmin;
 	z-index: 5;
