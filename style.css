@@ -11,7 +11,6 @@ body {
  	color:white;
 	/*fullscreen background fix*/
 	background-attachment: fixed;
-	background-size: cover;
 }
 
 .container {
@@ -40,8 +39,6 @@ body {
 }
 
 .container p{
-	/* background: rgba(255, 255, 255, 0.301);
-	border-radius: 10vw 10vw 0 0; */
 	text-align: center;
 	min-width: 30ch;
 	font-size: 4vmin;
@@ -54,7 +51,7 @@ body {
 	align-items: flex-end;
 	/* font styling */
 	font-family: 'Imperial Script', cursive;
-	text-shadow: 2px 2px 4px darkblue;
+	text-shadow: 2px 2px 4px black;
 	letter-spacing: 0.15vmin;
 	word-spacing: 1vmin;
 	font-weight: 800;
@@ -65,8 +62,6 @@ body {
 	padding: 1.5%
 	width: 14vmin;
 	height: 14vmin;
-	min-width: 7.5mm;
-	min-height: 7.5mm;
 	z-index: 5;
 	border-radius: 50%;
 	position: fixed;
