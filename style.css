@@ -45,7 +45,7 @@ body {
 	/* letter-spacing: 0.05vmin; */
 	word-spacing: 1vmin;
 	font-weight: bold;
-	font-size: 1.75rem;
+	font-size: 6vh;
 	/* auto enter and remove unwanted padding */
 	white-space: pre-line;
 	border-radius: 20px;
