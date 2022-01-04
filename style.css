@@ -5,13 +5,16 @@
 }
 
 body {
-	background-image: linear-gradient(to top, rgba(255, 255, 255, 0) , rgba(0, 0, 0, 0.1)), url(https://source.unsplash.com/random/?birthday);
+	background-image: url(https://source.unsplash.com/random/?birthday), linear-gradient(-135deg, rgba(255,12,128, 1), rgba(55, 128, 225, 1));
 	background-repeat: no-repeat;
-	background-color: rgb(43,131,226);
+	background-position: center;
  	color:white;
 	/*fullscreen background fix*/
 	background-attachment: fixed;
-	background-size:  cover;
+	background-size: cover;
+	height: 100vh;
+	width: auto;
+	
 }
 
 .container {
@@ -20,40 +23,37 @@ body {
 /* 	flex-direction: column; */
 	justify-content: center;
 	align-items: center;
-	width: 100vw;
-	/*! height: 100vmin; */
-	/* position: relative; */
+	width: 98vw;
+	height: 98vh;
 	flex-flow: wrap;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
 }
 
 .container #profile{
-	height: 65vmin;
 	width: 65vmin;
+	height: auto;
 	max-width: 273px;
-	max-height: 273px;
-	/* recentering image with diffrent viewport sizes */
-	/* position: absolute; */ 
-	margin: 5vh;
-	/*! transform: translateY(-50%); */
-	border-radius: 10%;
+	margin: 2vmin ;
 }
 
 .container p{
 	text-align: center;
-/* margin-top: 5vmin; */
 	/* font styling */
-	font-family: 'Imperial Script', cursive;
-	text-shadow: 2px 2px 4px black;
-	letter-spacing: 0.15vmin;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 1px 1px 3px black;
+	/* letter-spacing: 0.05vmin; */
 	word-spacing: 1vmin;
-	font-weight: 800;
-	font-size: 8vmin;
+	font-weight: bold;
+	font-size: 1.75rem;
 	/* auto enter and remove unwanted padding */
 	white-space: pre-line;
+	border-radius: 20px;
+	padding: 2vmin;
 }
 
 #playerIcon {
-	outline: 2px solid red;
+	border: 2px solid white;
 	width: 12vmin;
 	height: 12vmin; 
 	z-index: 2;
