@@ -12,8 +12,9 @@ body {
 	/*fullscreen background fix*/
 	background-attachment: fixed;
 	background-size: cover;
-	height: 100vh;
+	min-height: 100vh;
 	width: auto;
+	display: flex;
 	
 }
 
@@ -34,7 +35,7 @@ body {
 	width: 65vmin;
 	height: auto;
 	max-width: 273px;
-	margin: 2vmin ;
+	margin: 2vmin;
 }
 
 .container p{
