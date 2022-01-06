@@ -21,11 +21,10 @@ body {
 .container {
 	margin: auto;
 	display: flex;
-/* 	flex-direction: column; */
 	justify-content: center;
 	align-items: center;
 	width: 98vw;
-	height: 98vh;
+	min-height: 98vh;
 	flex-flow: wrap;
 	background-color: rgba(255, 255, 255, 0.2);
 	border-radius: 20px;
