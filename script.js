@@ -1,3 +1,5 @@
+alert("random wallpaper change & custom music player button added");
+
 function musicPlayback() {
 var song = document.getElementById("song");
 var icon = document.getElementById("playerIcon");
