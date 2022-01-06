@@ -43,9 +43,10 @@ body {
 	/* font styling */
 	font-family: 'Dancing Script', cursive;
 	text-shadow: 1px 1px 3px black;
+	/* letter-spacing: 0.05vmin; */
 	word-spacing: 1vmin;
 	font-weight: bold;
-	font-size: 2.25em;
+	font-size: 6vh;
 	/* auto enter and remove unwanted padding */
 	white-space: pre-line;
 	border-radius: 20px;
